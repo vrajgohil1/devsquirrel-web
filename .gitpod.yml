@@ -4,3 +4,15 @@ tasks:
       remove me entirely."
 image:
   file: .gitpod.Dockerfile
+
+vscode:
+  extensions:
+    - file-icons.file-icons@1.0.23:c2eIh1swO9eLIfSddqb3ow==
+    - DigitalBrainstem.javascript-ejs-support@1.3.1:y/Avvxiq1WJyxPFLE+YIIQ==
+    - ritwickdey.LiveServer@5.6.1:wV4LBkq6Z5s1xwf2HrB+cw==
+    - naumovs.color-highlight@2.3.0:6nKORbxgnWjNaN6xACiaQQ==
+    - dbaeumer.vscode-eslint@2.1.3:K+J3DJv7s2jzfkldxxEUvg==
+    - formulahendry.auto-close-tag@0.5.6:oZ/8R2VhZEhkHsoeO57hSw==
+    - hex-ci.stylelint-plus@0.52.10:3xwOxzt8pul2BpFjpP99lw==
+    - esbenp.prettier-vscode@4.4.0:ubt94/6inr3IuwPbaezdeQ==
+    - erikphansen.vscode-toggle-column-selection@1.0.6:YJzdSyBp61Eeh6IIZE5dLw==
