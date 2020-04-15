@@ -13,7 +13,7 @@ body{
     color: black;
 }
 
-.menu-bar{
+.menu-bar-left{
     margin-left: auto;
 }
 
@@ -30,10 +30,10 @@ body{
 }
 
 .our-service{
-    background-image: url('assets/bubble.svg');
+    /* background-image: url('assets/bubble.svg');
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-size: cover;
+    background-size: cover; */
 }
 
 
