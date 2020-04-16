@@ -4,45 +4,699 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DevSquirrel</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
     <!-- Navigation Bar -->
 
     <nav class="navbar navbar-expand-lg">
-        <button class="navbar-toggler menu-bar-left" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon">Menu</span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="menu-bar-left navbar-nav">
-            <!-- <a class="nav-item nav-link" href="#">Home</a>
+      <button
+        class="navbar-toggler menu-bar-left"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <!-- <span class="navbar-toggler-icon">Menu</span> -->
+        <svg
+          width="130"
+          height="133"
+          viewBox="0 0 130 133"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g filter="url(#filter0_ddddii)">
+            <circle cx="75" cy="50" r="30" fill="#EAEAEA" />
+          </g>
+          <g filter="url(#filter1_ddiiii)">
+            <rect x="57" y="49" width="35" height="3" rx="1.5" fill="#EAEAEA" />
+          </g>
+          <g filter="url(#filter2_ddiiii)">
+            <rect x="67" y="40" width="25" height="3" rx="1.5" fill="#EAEAEA" />
+          </g>
+          <g filter="url(#filter3_ddiiii)">
+            <rect x="57" y="58" width="35" height="3" rx="1.5" fill="#EAEAEA" />
+          </g>
+          <defs>
+            <filter
+              id="filter0_ddddii"
+              x="0"
+              y="-25"
+              width="158"
+              height="158"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="15" dy="15" />
+              <feGaussianBlur stdDeviation="19" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0.9 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="-15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect1_dropShadow"
+                result="effect2_dropShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect2_dropShadow"
+                result="effect3_dropShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="-15" dy="15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect3_dropShadow"
+                result="effect4_dropShadow"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect4_dropShadow"
+                result="shape"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-1" dy="-1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0 0.780392 0 0 0 0.5 0"
+              />
+              <feBlend mode="normal" in2="shape" result="effect5_innerShadow" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="1" dy="1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect5_innerShadow"
+                result="effect6_innerShadow"
+              />
+            </filter>
+            <filter
+              id="filter1_ddiiii"
+              x="42"
+              y="34"
+              width="65"
+              height="33"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="-1" dy="-1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.5 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="1" dy="1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect1_dropShadow"
+                result="effect2_dropShadow"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect2_dropShadow"
+                result="shape"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="15" dy="15" />
+              <feGaussianBlur stdDeviation="19" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.9 0"
+              />
+              <feBlend mode="normal" in2="shape" result="effect3_innerShadow" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect3_innerShadow"
+                result="effect4_innerShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect4_innerShadow"
+                result="effect5_innerShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-15" dy="15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect5_innerShadow"
+                result="effect6_innerShadow"
+              />
+            </filter>
+            <filter
+              id="filter2_ddiiii"
+              x="52"
+              y="25"
+              width="55"
+              height="33"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="-1" dy="-1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.5 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="1" dy="1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect1_dropShadow"
+                result="effect2_dropShadow"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect2_dropShadow"
+                result="shape"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="15" dy="15" />
+              <feGaussianBlur stdDeviation="19" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.9 0"
+              />
+              <feBlend mode="normal" in2="shape" result="effect3_innerShadow" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect3_innerShadow"
+                result="effect4_innerShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect4_innerShadow"
+                result="effect5_innerShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-15" dy="15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect5_innerShadow"
+                result="effect6_innerShadow"
+              />
+            </filter>
+            <filter
+              id="filter3_ddiiii"
+              x="42"
+              y="43"
+              width="65"
+              height="33"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="-1" dy="-1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.5 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="BackgroundImageFix"
+                result="effect1_dropShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dx="1" dy="1" />
+              <feGaussianBlur stdDeviation="1" />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.3 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect1_dropShadow"
+                result="effect2_dropShadow"
+              />
+              <feBlend
+                mode="normal"
+                in="SourceGraphic"
+                in2="effect2_dropShadow"
+                result="shape"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="15" dy="15" />
+              <feGaussianBlur stdDeviation="19" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.9 0"
+              />
+              <feBlend mode="normal" in2="shape" result="effect3_innerShadow" />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.9 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect3_innerShadow"
+                result="effect4_innerShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="15" dy="-15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect4_innerShadow"
+                result="effect5_innerShadow"
+              />
+              <feColorMatrix
+                in="SourceAlpha"
+                type="matrix"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                result="hardAlpha"
+              />
+              <feOffset dx="-15" dy="15" />
+              <feGaussianBlur stdDeviation="15" />
+              <feComposite
+                in2="hardAlpha"
+                operator="arithmetic"
+                k2="-1"
+                k3="1"
+              />
+              <feColorMatrix
+                type="matrix"
+                values="0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0 0.54902 0 0 0 0.2 0"
+              />
+              <feBlend
+                mode="normal"
+                in2="effect5_innerShadow"
+                result="effect6_innerShadow"
+              />
+            </filter>
+          </defs>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="menu-bar-left navbar-nav">
+          <!-- <a class="nav-item nav-link" href="#">Home</a>
             <a class="nav-item nav-link" href="#">Features</a>
             <a class="nav-item nav-link" href="#">Pricing</a>
             <a class="nav-item nav-link" href="#">Disabled</a> -->
-            <button class="btn" type="button">Main button</button>
-            <button class="btn" type="button">Main button</button>
-            <button class="btn" type="button">Main button</button>
-            <button class="btn" type="button">Main button</button>
-          </div>
+          <button class="btn" type="button">Main button</button>
+          <button class="btn" type="button">Main button</button>
+          <button class="btn" type="button">Main button</button>
+          <button class="btn" type="button">Main button</button>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <!-- Landing Page  -->
 
-    <div class="landing-page">
-      <img src="css/assets/laptopDark.png" alt="DevSquirrel landing page" />
-      <h1>DevSquirrel</h1>
-      <p>
-        Some text here which is to be decided! maybe some tagline or short
-        description whatever.
-      </p>
-      <div class="contact-bar"></div>
-      <div class="our-service">
-        <img src="css/assets/services.svg" alt="our-services" />
+    <div class="landing-page row">
+      <div class="col-lg-6">
+        <img
+          class="laptop-img"
+          src="css/assets/laptopDark.png"
+          alt="DevSquirrel landing page"
+        />
+      </div>
+      <div class="col-lg-6">
+        <h1>DevSquirrel</h1>
+        <p>
+          Some text here which is to be decided! maybe some tagline or short
+          description whatever.
+        </p>
+        <div class="contact-bar">
+          <p>
+            Email Address
+          </p>
+        </div>
       </div>
     </div>
+
+    <!-- Our Services -->
+    <div>
+      <img
+        class="svg-titles"
+        src="css/assets/services.svg"
+        alt="our-services"
+      />
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <img
+          class="illustration-img"
+          src="css/assets/ui.svg"
+          alt="illustration 1"
+        />
+      </div>
+      <div class="col-lg-6">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+          consectetur scelerisque gravida morbi pretium. Porta duis at mattis
+          integer consectetur id. Et, duis leo platea elit, ullamcorper posuere
+          enim eleifend. Urna, vitae in at tellus. Sollicitudin eget sodales
+          risus nunc diam morbi at in auctor. Volutpat felis sed nulla massa
+          commodo. Nunc id eu, augue quam enim morbi senectus. Est, dui quam
+          imperdiet semper id. Pretium arcu massa, hendrerit dignissim suscipit
+          fames tempus. Quis aliquet vitae porttitor justo. Ut eget morbi
+          rhoncus ut. Bibendum quam vitae sed sit. Platea eget orci aliquet eu
+          placerat amet, massa est, venenatis. Felis lorem vitae pulvinar in sed
+          enim urna massa.
+        </p>
+      </div>
+    </div>
+
+    <!-- Our Methodology -->
+
+    <div>
+      <img
+        class="svg-titles"
+        src="css/assets/methodology.svg"
+        alt="our-Methodology"
+      />
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Egestas
+          consectetur scelerisque gravida morbi pretium. Porta duis at mattis
+          integer consectetur id. Et, duis leo platea elit, ullamcorper posuere
+          enim eleifend. Urna, vitae in at tellus. Sollicitudin eget sodales
+          risus nunc diam morbi at in auctor. Volutpat felis sed nulla massa
+          commodo. Nunc id eu, augue quam enim morbi senectus. Est, dui quam
+          imperdiet semper id. Pretium arcu massa, hendrerit dignissim suscipit
+          fames tempus. Quis aliquet vitae porttitor justo. Ut eget morbi
+          rhoncus ut. Bibendum quam vitae sed sit. Platea eget orci aliquet eu
+          placerat amet, massa est, venenatis. Felis lorem vitae pulvinar in sed
+          enim urna massa.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img
+          class="illustration-img"
+          src="css/assets/appdevelopment.svg"
+          alt="illustration 2"
+        />
+      </div>
+    </div>
+
+    <div>
+      <img
+        class="svg-titles"
+        src="css/assets/sdlc.svg"
+        alt="software develpment life cycle"
+      />
+    </div>
+
     <!-- bootstrap scripts -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
