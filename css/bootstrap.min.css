@@ -2410,10 +2410,12 @@ textarea.form-control.is-invalid {
   background-color: transparent;
   border: 0;
   padding: 1rem 1.25rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   border-radius: 2rem;
-  background: #eaeaea;
+  /* background: #eaeaea; */
+  background: linear-gradient(145deg, #eaeaea, #ffffff);
+  font-family: 'Ubuntu Mono', monospace;
   box-shadow: 15px 15px 38px rgba(199, 199, 199, 0.9),
     -15px -15px 30px rgba(255, 255, 255, 0.9),
     15px -15px 30px rgba(199, 199, 199, 0.2),
@@ -2436,7 +2438,7 @@ textarea.form-control.is-invalid {
 .btn.focus,
 .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  box-shadow: inset 4px 4px 12px #eaeaea, inset -4px -4px 12px #eeeeee;
 }
 .btn.disabled,
 .btn:disabled {
@@ -4010,7 +4012,7 @@ input[type="submit"].btn-block {
 }
 .nav-tabs .nav-item.show .nav-link,
 .nav-tabs .nav-link.active {
-  color: #495057;
+  color: transparent;
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
@@ -4025,7 +4027,7 @@ input[type="submit"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #007bff;
+  background-color: transparent;
 }
 .nav-fill .nav-item {
   -ms-flex: 1 1 auto;
@@ -4055,7 +4057,7 @@ input[type="submit"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding: 0;
 }
 .navbar .container,
 .navbar .container-fluid,
@@ -4116,16 +4118,18 @@ input[type="submit"].btn-block {
   align-items: center;
 }
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding: 0;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
-  border: 1px solid transparent;
-  border-radius: 0.25rem;
+  border: 0px solid transparent;
 }
 .navbar-toggler:focus,
 .navbar-toggler:hover {
   text-decoration: none;
+  background-color: transparent;
+  border: 0px solid transparent;
+  outline: 0px transparent;
 }
 
 .navbar-toggler-icon {
@@ -4135,7 +4139,7 @@ input[type="submit"].btn-block {
   background: no-repeat center center;
   background-size: 100% 100%;
   border-radius: 2rem;
-  padding: 1rem;
+  padding: 0;
   background: #eaeaea;
   box-shadow: 15px 15px 38px rgba(199, 199, 199, 0.9),
     -15px -15px 30px rgba(255, 255, 255, 0.9),
@@ -4219,7 +4223,7 @@ input[type="submit"].btn-block {
     position: absolute;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
+    padding-right: 0;
     padding-left: 0.5rem;
   }
   .navbar-expand-md > .container,
@@ -4267,7 +4271,7 @@ input[type="submit"].btn-block {
     position: absolute;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-right: 0.5rem;
+    padding-right: 0;
     padding-left: 0.5rem;
   }
   .navbar-expand-lg > .container,
@@ -4315,7 +4319,7 @@ input[type="submit"].btn-block {
     position: absolute;
   }
   .navbar-expand-xl .navbar-nav .nav-link {
-    padding-right: 0.5rem;
+    padding-right: 0;
     padding-left: 0.5rem;
   }
   .navbar-expand-xl > .container,
