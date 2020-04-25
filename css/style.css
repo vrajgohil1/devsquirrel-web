@@ -1,66 +1,96 @@
-body{
-    background: linear-gradient(180deg, #EEEEEE 0%, #E5E5E5 100%);
+body {
+  background: linear-gradient(180deg, #eeeeee 0%, #e5e5e5 100%);
 }
 
-.menu-button{
-    width: 150px;
-    height: 70px;
-    background: #EAEAEA;
-    box-shadow: 15px 15px 38px rgba(199, 199, 199, 0.9), -15px -15px 30px rgba(255, 255, 255, 0.9), 15px -15px 30px rgba(199, 199, 199, 0.2), -15px 15px 30px rgba(199, 199, 199, 0.2), inset -1px -1px 2px rgba(199, 199, 199, 0.5), inset 1px 1px 2px rgba(255, 255, 255, 0.3);
-    border-radius: 36px;
-    margin-left: 0.5rem;
-    text-align: center;
-    color: black;
+.menu-button {
+  width: 150px;
+  height: 70px;
+  background: #eaeaea;
+  box-shadow: 15px 15px 38px rgba(199, 199, 199, 0.9),
+    -15px -15px 30px rgba(255, 255, 255, 0.9),
+    15px -15px 30px rgba(199, 199, 199, 0.2),
+    -15px 15px 30px rgba(199, 199, 199, 0.2),
+    inset -1px -1px 2px rgba(199, 199, 199, 0.5),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3);
+  border-radius: 36px;
+  margin-left: 0.5rem;
+  text-align: center;
+  color: black;
 }
 
-.menu-bar-left{
-    margin-left: auto;
+.menu-bar-left {
+  margin-left: auto;
 }
 
-.laptop-img{
-    max-width: 100%;
-    height: auto;
+.laptop-img {
+  max-width: 100%;
+  height: auto;
 }
 
-.illustration-img{
-    max-width: 80%;
-    height: auto;
+.illustration-img {
+  max-width: 80%;
+  height: auto;
 }
 
-.contact-bar{
-    margin-top: 2rem;
-    width: 85%;
-    height: 3.5rem;
-    background: linear-gradient(173.48deg, #E0E0E0 0%, #F8F8F8 100%);
-    box-shadow: 26px 26px 65px rgba(189, 189, 189, 0.9), -26px -26px 52px rgba(255, 255, 255, 0.9), 26px -26px 52px rgba(189, 189, 189, 0.2), -26px 26px 52px rgba(189, 189, 189, 0.2), inset -1px -1px 2px rgba(189, 189, 189, 0.5), inset 1px 1px 2px rgba(255, 255, 255, 0.3);
-    border-radius: 30px;
+.contact-bar {
+  margin-top: 2rem;
+  width: 85%;
+  height: 3.5rem;
+  background: linear-gradient(173.48deg, #e0e0e0 0%, #f8f8f8 100%);
+  box-shadow: 26px 26px 65px rgba(189, 189, 189, 0.9),
+    -26px -26px 52px rgba(255, 255, 255, 0.9),
+    26px -26px 52px rgba(189, 189, 189, 0.2),
+    -26px 26px 52px rgba(189, 189, 189, 0.2),
+    inset -1px -1px 2px rgba(189, 189, 189, 0.5),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
 }
 
-h2, h3, h4, h5,h6, p{
-    font-family: 'Ubuntu Mono', monospace;
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Ubuntu Mono", monospace;
 }
 
-.svg-titles{
-   display: block;
-   margin: 3rem auto;
-   max-width: 100%;
-   width: 35%;
-   
+.svg-titles {
+  display: block;
+  margin: 3rem auto;
+  max-width: 100%;
+  width: 35%;
 }
 
-.sdlc-img{
-    position: relative;
-    bottom: 5rem;
+.sdlc-img {
+  position: relative;
+  bottom: 5rem;
 }
 
-
-.cards{
-    width: 20rem;
-    height: 4rem;
-    background: #EAEAEA;
-    box-shadow: 15px 15px 38px rgba(199, 199, 199, 0.9), -15px -15px 30px rgba(255, 255, 255, 0.9), 15px -15px 30px rgba(199, 199, 199, 0.2), -15px 15px 30px rgba(199, 199, 199, 0.2), inset -1px -1px 2px rgba(199, 199, 199, 0.5), inset 1px 1px 2px rgba(255, 255, 255, 0.3);
-    border-radius: 23px;
-    margin: 1.5rem;
+.cards {
+  width: 20rem;
+  height: 4rem;
+  background: #eaeaea;
+  box-shadow: 15px 15px 38px rgba(199, 199, 199, 0.9),
+    -15px -15px 30px rgba(255, 255, 255, 0.9),
+    15px -15px 30px rgba(199, 199, 199, 0.2),
+    -15px 15px 30px rgba(199, 199, 199, 0.2),
+    inset -1px -1px 2px rgba(199, 199, 199, 0.5),
+    inset 1px 1px 2px rgba(255, 255, 255, 0.3);
+  border-radius: 23px;
+  margin: 1.5rem;
 }
 
-
+.footer-card {
+  background: #eaeaea;
+  box-shadow: 50px 50px 80px rgba(164, 164, 164, 0.9),
+    -50px -50px 50px rgba(255, 255, 255, 0.9),
+    50px -50px 75px rgba(164, 164, 164, 0.2),
+    -50px 50px 100px rgba(164, 164, 164, 0.2),
+    inset -2px -2px 3px rgba(164, 164, 164, 0.5),
+    inset 2px 2px 3px rgba(255, 255, 255, 0.3);
+  border-radius: 23px;
+  padding: 1rem;
+  max-width: 100%;
+  margin: 1rem;
+}
